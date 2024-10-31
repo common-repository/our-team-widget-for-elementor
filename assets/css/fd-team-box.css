@@ -1,0 +1,37 @@
+.team-box img { vertical-align: top;width: 100%;}
+.elementor-widget-fd-team-box-widget .elementor-widget-container{
+	overflow:hidden;
+}
+.team-box  .fdtb_box-image-box-description { 
+	padding-top: 10px; 	
+}
+.team-box  .fd-image-box-hover { 	
+	padding: 20px;
+}
+.team-box .fd-image-box-hover .fdtb_box-image-box-title {	   
+	font-weight: 600;
+}
+.team-box p.fdtb_box-image-box-small-description	{	
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.35em;
+	}
+
+.team-box .fdtb_box-widget-html {
+    position: absolute;
+	-webkit-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+	top: 104%;
+	height: 100%;	
+}
+.fdtb_box-widget-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.team-box:hover .fdtb_box-widget-html{ top: 0;}
+
+.team-box .fdtb_box-image-box-content { padding: 20px 20px 15px 20px; }
+
+
+
